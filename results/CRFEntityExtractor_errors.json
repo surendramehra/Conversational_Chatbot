@@ -1,0 +1,741 @@
+[
+  {
+    "text": "i am looking for an indian spot called olaolaolaolaolaola",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.6608630160216212,
+        "value": "an indian",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "anywhere in the west",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "west",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can you book a table in rome in a moderate price range with british food for four people",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "rome",
+        "entity": "location"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "value": "699",
+        "entity": "budget"
+      },
+      {
+        "start": 60,
+        "end": 67,
+        "value": "british",
+        "entity": "cuisine"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "value": "4",
+        "entity": "people"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "budget",
+        "start": 34,
+        "end": 42,
+        "confidence_entity": 0.8014917249743857,
+        "value": "699",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find restaurents in bombay for chinese cusine",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "bombay",
+        "entity": "location"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "value": "chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.8896171758775192,
+        "value": "chinese",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i'm looking for a place in the north of town",
+    "entities": [
+      {
+        "start": 31,
+        "end": 36,
+        "value": "north",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me chines restaurants in the north",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "chinese",
+        "entity": "cuisine"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "value": "north",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "search thai food joints, here is my id for the results qwerrt@asdf.zxc",
+    "entities": [
+      {
+        "start": 7,
+        "end": 11,
+        "value": "thai",
+        "entity": "cuisine"
+      },
+      {
+        "start": 55,
+        "end": 70,
+        "value": "qwerrt@asdf.zxc",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.8448357534440868,
+        "value": "thai",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "i wants american dish",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "american",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I’ll prefer thai",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "thai",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "send some American restaurents to oiuopiokj@sdfsd.asda.sd",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "American",
+        "entity": "cuisine"
+      },
+      {
+        "start": 34,
+        "end": 57,
+        "value": "oiuopiokj@sdfsd.asda.sd",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "in between 90 and 100",
+    "entities": [
+      {
+        "start": 18,
+        "end": 21,
+        "value": "100",
+        "entity": "budget"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.76177293210287,
+        "value": "between",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "budget",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.6854033346489319,
+        "value": "100",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "noida",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "noida",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Lithuania",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Lithuania",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "central indian restaurant",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "central",
+        "entity": "location"
+      },
+      {
+        "start": 8,
+        "end": 14,
+        "value": "indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cheap",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "399",
+        "entity": "budget"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "pocket friendly restaurant less than 400",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "399",
+        "entity": "budget"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "budget",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.9708038254663112,
+        "value": "399",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "budget",
+        "start": 37,
+        "end": 40,
+        "confidence_entity": 0.9407257957779136,
+        "value": "400",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "costliest restaurant of mumbai",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "701",
+        "entity": "budget"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "mumbai",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.7744687166217559,
+        "value": "mumbai",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "asdasd@gagad.com this is my id",
+    "entities": [
+      {
+        "start": 0,
+        "end": 16,
+        "value": "asdasd@gagad.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "asdasfu@weritp.com my address please send it there",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "asdasfu@weritp.com",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I am looking for asian fusion food",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "asian fusion",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "South Indian",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "South Indian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Italian",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Italian",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "look for restuarent in delhi and send them to my id ghtki@ghesd.wer",
+    "entities": [
+      {
+        "start": 23,
+        "end": 28,
+        "value": "delhi",
+        "entity": "location"
+      },
+      {
+        "start": 49,
+        "end": 67,
+        "value": "id ghtki@ghesd.wer",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.966233217230937,
+        "value": "delhi",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Ahmedabad",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "Ahmedabad",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Meerut",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Meerut",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "in Thiruvananthapuram,",
+    "entities": [
+      {
+        "start": 3,
+        "end": 21,
+        "value": "Thiruvananthapuram",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "send results to my email id ertsdfgdf@asded.csd.in of mexican restaurents in Agra",
+    "entities": [
+      {
+        "start": 28,
+        "end": 50,
+        "value": "ertsdfgdf@asded.csd.in",
+        "entity": "email"
+      },
+      {
+        "start": 54,
+        "end": 61,
+        "value": "mexican",
+        "entity": "cuisine"
+      },
+      {
+        "start": 77,
+        "end": 81,
+        "value": "Agra",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 54,
+        "end": 61,
+        "confidence_entity": 0.630448000918079,
+        "value": "mexican",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "location",
+        "start": 77,
+        "end": 81,
+        "confidence_entity": 0.7996346714034572,
+        "value": "Agra",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "send a list of restaurents in Kanpur at hunjm@asd.cas",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "Kanpur",
+        "entity": "location"
+      },
+      {
+        "start": 40,
+        "end": 53,
+        "value": "hunjm@asd.cas",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "find me a cheap restaurent",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "399",
+        "entity": "budget"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "okay, send it to sjaojosaj_2993.njskd@abc.com, jajsjs279@ddjjj.co.in",
+    "entities": [
+      {
+        "start": 17,
+        "end": 45,
+        "value": "sjaojosaj_2993.njskd@abc.com",
+        "entity": "email"
+      },
+      {
+        "start": 47,
+        "end": 68,
+        "value": "jajsjs279@ddjjj.co.in",
+        "entity": "email"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "email",
+        "start": 17,
+        "end": 46,
+        "confidence_entity": 0.844774079380781,
+        "value": "sjaojosaj_2993.njskd@abc.com,",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "email",
+        "start": 47,
+        "end": 68,
+        "confidence_entity": 0.7549872131640885,
+        "value": "jajsjs279@ddjjj.co.in",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me a mexican place in the centre",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "mexican",
+        "entity": "cuisine"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "centre",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.7537198058811448,
+        "value": "mexican",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "anywhere near patna",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "patna",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "In Delhi.",
+    "entities": [
+      {
+        "start": 3,
+        "end": 8,
+        "value": "Delhi",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 3,
+        "end": 9,
+        "confidence_entity": 0.9776556405836009,
+        "value": "Delhi.",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for some restaurants in Delhi.",
+    "entities": [
+      {
+        "start": 37,
+        "end": 42,
+        "value": "Delhi",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "location",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.9776239390870807,
+        "value": "Delhi.",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I am looking for mexican indian fusion",
+    "entities": [
+      {
+        "start": 17,
+        "end": 38,
+        "value": "mexican indian fusion",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.8459775700893144,
+        "value": "mexican",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "bengaluru",
+    "entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "bengaluru",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "its Amritsar,",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "Amritsar",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cheap restaurants less than 350",
+    "entities": [
+      {
+        "start": 28,
+        "end": 31,
+        "value": "399",
+        "entity": "budget"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "budget",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8955464962505594,
+        "value": "399",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "budget",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.7134356557095235,
+        "value": "399",
+        "extractor": "CRFEntityExtractor",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

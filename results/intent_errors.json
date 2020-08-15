@@ -1,0 +1,250 @@
+[
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "send_email",
+      "confidence": 0.7179705980935756
+    }
+  },
+  {
+    "text": "that's right",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3285466950335807
+    }
+  },
+  {
+    "text": "nah I am ok",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.49821576949472873
+    }
+  },
+  {
+    "text": "naaahh i am ok",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.39937244363175584
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3945133571420793
+    }
+  },
+  {
+    "text": "farewell",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3945133571420793
+    }
+  },
+  {
+    "text": "Salve",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8795199648993239
+    }
+  },
+  {
+    "text": "<250",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "send_email",
+      "confidence": 0.5140557147690166
+    }
+  },
+  {
+    "text": "cool. send all the restaurant details to abc.2789@yahoo.co.in",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6700492009923178
+    }
+  },
+  {
+    "text": "send me results to ralhanprateek@gmail.com",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.41153386179150503
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5951550251615567
+    }
+  },
+  {
+    "text": "great",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.27333397352597677
+    }
+  },
+  {
+    "text": "great choice",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.6853347351153624
+    }
+  },
+  {
+    "text": "nope",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5785715103675417
+    }
+  },
+  {
+    "text": "what the fuck",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.21427778373067166
+    }
+  },
+  {
+    "text": "get lost",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.36444209299245295
+    }
+  },
+  {
+    "text": "good bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.278624845053477
+    }
+  },
+  {
+    "text": "have a good one",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.4849811629126203
+    }
+  },
+  {
+    "text": "Hola",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7745826258129053
+    }
+  },
+  {
+    "text": "yes asd@g.com",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8976506069337291
+    }
+  },
+  {
+    "text": "I am leaving bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3941970586594536
+    }
+  },
+  {
+    "text": "it was nice talking to you",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.24511072059488442
+    }
+  },
+  {
+    "text": "Oh, sorry, in Italy",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3611297057804229
+    }
+  },
+  {
+    "text": "Meerut",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "send_email",
+      "confidence": 0.47013084890332246
+    }
+  },
+  {
+    "text": "yes at asd@g.com",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2964095694463722
+    }
+  },
+  {
+    "text": "okay, send it to sjaojosaj_2993.njskd@abc.com, jajsjs279@ddjjj.co.in",
+    "intent": "send_email",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.39334459293878327
+    }
+  },
+  {
+    "text": "yes. Please",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "send_email",
+      "confidence": 0.6186499819482043
+    }
+  },
+  {
+    "text": "yes, do  you know my email id",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "send_email",
+      "confidence": 0.4675276003781496
+    }
+  },
+  {
+    "text": "end",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3121328093394914
+    }
+  },
+  {
+    "text": "I am going",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5289928746649464
+    }
+  },
+  {
+    "text": "12323",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "send_email",
+      "confidence": 0.7011769384119995
+    }
+  }
+]
